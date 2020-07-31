@@ -1,0 +1,9 @@
+type Mutation {
+  updateRoom(
+    roomId: Int!
+    area: String!
+    title: String!
+    description: String!
+    contactURL: String!
+  ): Boolean
+}
